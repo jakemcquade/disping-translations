@@ -1,3 +1,3 @@
 module.exports = {
-  missing_access: "User missing access to server."
+    missing_access: 'User missing access to server.',
 };
