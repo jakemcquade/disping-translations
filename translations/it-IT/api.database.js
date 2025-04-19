@@ -1,19 +1,21 @@
 module.exports = {
-    missing_access: 'User missing permissions to access the server.',
-    ratelimit: 'Platform is currently being ratelimited. This is an internal issue. Please report this.',
-    vote_required: 'You must vote for Disping to use this feature. Please visit https://disping.xyz/vote to vote.',
-    test_cooldown: "You've already sent a test message recently! Please wait {cooldown} seconds.",
+    missing_access: "L'utente non ha i permessi per accedere al server.",
+    ratelimit:
+        'La piattaforma è attualmente soggetta a limitazioni di velocità. Questo è un problema interno. Segnalalo per favore.',
+    vote_required: 'Devi votare per Disping per usare questa funzione. Visita https://disping.xyz/vote per votare.',
+    test_cooldown: 'Hai già inviato un messaggio di test di recente! Attendi {cooldown} secondi.',
     user: {
-        limit: 'You have reached the maximum number of users you can add for this social. Buy Disping premium to add more.',
-        not_found: 'User "{username}" does not exist.',
-        already_added: 'User "{username}" has already been added.',
+        limit: 'Hai raggiunto il numero massimo di utenti che puoi aggiungere per questo social. Acquista Disping premium per aggiungerne altri.',
+        not_found: 'L\'utente "{username}" non esiste.',
+        already_added: 'L\'utente "{username}" è già stato aggiunto.',
     },
     channel: {
-        not_found: 'Failed to find channel. Please make sure Disping can send messages and view the selected channel.',
-        no_channel: 'No channel/webhook was added to this user.',
+        not_found:
+            'Impossibile trovare il canale. Assicurati che Disping possa inviare messaggi e visualizzare il canale selezionato.',
+        no_channel: 'Nessun canale/webhook è stato aggiunto a questo utente.',
     },
     test: {
-        cooldown: 'You have already sent a test message recently! Please wait {cooldown} seconds.',
-        failed: 'Failed to send test message. Please make sure Disping can send messages and view the selected channel.',
+        cooldown: 'Hai già inviato un messaggio di test di recente! Attendi {cooldown} secondi.',
+        failed: 'Impossibile inviare il messaggio di test. Assicurati che Disping possa inviare messaggi e visualizzare il canale selezionato.',
     },
 };
