@@ -1,35 +1,4 @@
 module.exports = {
-  none: 'Nada',
-  config: 'Configuración',
-  this_channel: 'Use Current Channel',
-  updated: '{alert} • Configuration updated. Thank you for using Disping.',
-  limit:
-    'You hit the limit of users you can add using Disping. This limit is in place, so every user can enjoy the same experience using Disping. Thank you for understanding!',
-  404: '¡El usuario **{username}** no se encontró! Por favor, asegúrese de que escribió bien el nombre del usuario.',
-  invalidURL: 'URL inválida.',
-  saveError:
-    'Ocurrió un error al guardar. Por favor, inténtelo de nuevo.\nSi continúa saliéndole este error, por favor contacta al [support]({support}). ¡Disculpas por el inconveniente.',
-  format: {
-    spotify: 'URL inválida. Las URL de Spotify son normalmente así:\n**https://open.spotify.com/artist/ID_AQUÍ**.',
-    reddit: 'URL inválida. Las URL de Reddit normalmente son así:\n**https://www.reddit.com/r/ejemplo**.',
-    threads: 'Invalid URL. Thread URLs are normally like this: **https://threads.net/@ch1lldev**',
-  },
-  loading: {
-    title: 'La carga...',
-    desc: 'Adding users and configuring Disping to watch them. If you get stuck on this screen, please contact [support]({support}). Thanks for using Disping!',
-  },
-  perms: {
-    invalid:
-      "{alert} • You do not have permission (MANAGE_GUILD) to manage this server's settings for Disping. Please contact the server owner to request this permission.",
-  },
-  buttons: {
-    saveexit: 'Save & Exit',
-    back: 'Back',
-    support: 'Apoyar',
-    website: 'Sitio Web',
-    feedback: 'Comentarios',
-    data: 'Export Data',
-  },
   colors: {
     red: 'Rojo',
     orange: 'Anaranjado',
