@@ -1,3 +1,3 @@
 module.exports = {
-  reply: "{alert} • Language updated to **{language}**. Thank you for using Disping!"
+  reply: '{alert} • Language updated to **{language}**. Thank you for using Disping!',
 };
