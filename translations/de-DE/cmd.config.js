@@ -1,36 +1,4 @@
 module.exports = {
-  none: 'Keine',
-  config: 'Konfiguration',
-  this_channel: 'Aktuellen Kanal verwenden',
-  updated: '{alert} • Konfiguration aktualisiert. Vielen Dank für die Verwendung von Disping.',
-  limit:
-    'Du hast die maximale Anzahl von Benutzern erreicht, die du mit Disping hinzufügen kannst. Dieses Limit ist existiert, damit jeder Benutzer Disping fair genießen kann. Danke für dein Verständnis!',
-  404: 'User **{username}** konnte nicht gefunden werden! Bitte stelle sicher, dass der {social} Benutzername (oder das Handle für YouTube) und nicht den Anzeigenamen eingegeben hast.',
-  invalidURL: 'Ungültige URL.',
-  saveError:
-    '**{alert} Fehler**\nBeim Speichern ist ein Fehler aufgetreten. Bitte konfiguriere den zu ändernden Wert erneut. Wenn du diesen Fehler weiterhin erhältst, kontaktiere bitte unseren [support]({support}). Entschuldigung für die Unannehmlichkeiten.',
-  format: {
-    spotify:
-      'Ungültige URL. Spotify-URLs sind normalerweise wie folgt: **https://open.spotify.com/artist/ID_GOES_HERE**.',
-    reddit: 'Ungültige URL. Reddit URLs sind normalerweise wie folgt: **https://www.reddit.com/r/memes**.',
-    threads: 'Ungültige URL. Thread URLs sind normalerweise wie folgt: **https://threads.net/@ch1lldev**',
-  },
-  loading: {
-    title: 'Lädt...',
-    desc: 'Füge Benutzer hinzu und konfiguriere Disping um ihnen zu folgen. Wenn du in dieser Anzeige stecken bleibst, kontaktiere bitte unseren [support]({support}). Danke, dass du Disping verwendest!',
-  },
-  perms: {
-    invalid:
-      '{alert} • Du hast keine Berechtigung (MANAGE_GUILD) um die Disping-Einstellungen dieses Servers zu verwalten. Bitte kontaktiere den Serverbesitzer, um diese Berechtigung anzufordern.',
-  },
-  buttons: {
-    saveexit: 'Speichern & Beenden',
-    back: 'Zurück',
-    support: 'Support',
-    website: 'Webseite',
-    feedback: 'Feedback',
-    data: 'Export Daten',
-  },
   colors: {
     red: 'Rot',
     orange: 'Orange',
