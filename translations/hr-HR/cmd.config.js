@@ -1,35 +1,4 @@
 module.exports = {
-  none: 'Nijedno',
-  config: 'Konfiguracija',
-  this_channel: 'Koristi trenutni kanal',
-  updated: '{alert} • Configuration updated. Thank you for using Disping.',
-  limit:
-    'You hit the limit of users you can add using Disping. This limit is in place, so every user can enjoy the same experience using Disping. Thank you for understanding!',
-  404: 'Korisnika **{username}** nije moguće pronaći! Provjerite jeste li unijeli korisničko ime {social} (ili YouTube ime), a ne ime za prikaz.',
-  invalidURL: 'Neispravan URL.',
-  saveError:
-    'Došlo je do pogreške prilikom spremanja. Ponovno konfigurirajte vrijednost koju ste pokušavali promijeniti. Ako i dalje dobivate ovu pogrešku, obratite se [podršci]({support}). Oprostite na neugodnosti.',
-  format: {
-    spotify: 'Neispravan URL. Spotify URL-ovi obično su ovakvi: **https://open.spotify.com/artist/ID_OVDJE**.',
-    reddit: 'Neispravan URL. Reddit URL-ovi obično su ovakvi: **https://www.reddit.com/r/memes**.',
-    threads: 'Neispravan URL. Thread URL-ovi obično su ovakvi: **https://threads.net/@ch1lldev**',
-  },
-  loading: {
-    title: 'Učitavanje...',
-    desc: 'Adding users and configuring Disping to watch them. If you get stuck on this screen, please contact [support]({support}). Thanks for using Disping!',
-  },
-  perms: {
-    invalid:
-      "{alert} • You do not have permission (MANAGE_GUILD) to manage this server's settings for Disping. Please contact the server owner to request this permission.",
-  },
-  buttons: {
-    saveexit: 'Spremi i Izađi',
-    back: 'Natrag',
-    support: 'Podrška',
-    website: 'Web stranica',
-    feedback: 'Povratne informacije',
-    data: 'Izvoz Podataka',
-  },
   colors: {
     red: 'Crvena',
     orange: 'Narančasta',
