@@ -1,35 +1,4 @@
 module.exports = {
-  none: 'Ingen',
-  config: 'Konfigurasjon',
-  this_channel: 'Bruk gjeldende kanal',
-  updated: '{alert} • Konfigurasjon oppdatert. Takk for at du bruker Disping.',
-  limit:
-    'Du når grensen for brukere du kan legge til ved hjelp av Disping. Grensen er nå på plass, så hver bruker kan nyte den samme opplevelsen når de bruker Disping. Takk for at du forstår!',
-  404: 'Bruker **{username}** ble ikke funnet! Vennligst sjekk om du har skrevet inn {social} brukernavn (eller handle på YouTube) og ikke displaynavnet.',
-  invalidURL: 'Ugyldg URL.',
-  saveError:
-    'En feil oppstod under lagring. Vennligst prøv å konfigurere det du ønsker å endre på nytt. Hvis du fortsetter å få denne feilen, vennligst kontakt [support]({support}). Vi beklager problemet dette medfører.',
-  format: {
-    spotify: 'Ugyldig URL. Spotify URL-er ser vanligvis slik ut: **https://open.spotify.com/artist/ID_GOES_HERE**.',
-    reddit: 'Ugyldig URL. Reddit URL-er ser vanligvis slik ut: **https://www.reddit.com/r/memes**.',
-    threads: 'Ugyldig URL. Trådnettadresser ser vanligvis slik ut: **https://threads.net/@ch1lldev**',
-  },
-  loading: {
-    title: 'Laster inn...',
-    desc: 'Legger til brukere og konfigurerer Disping for å se dem. Hvis du sitter fast på denne skjermen, vennligst kontakt [support]({support}). Takk for at du bruker Disping!',
-  },
-  perms: {
-    invalid:
-      '{alert} • Du har ikke tillatelse (MANAGE_GUILD) til å administrere denne serverens innstillinger for Disping. Vennligst kontakt eieren av serveren for å be om å ha tilgang til denne tillatelsen.',
-  },
-  buttons: {
-    saveexit: 'Lagre og avslutt',
-    back: 'Tilbake',
-    support: 'Brukerstøtte',
-    website: 'Nettsted',
-    feedback: 'Tilbakemelding',
-    data: 'Eksporter data',
-  },
   colors: {
     red: 'Rød',
     orange: 'Oransje',
