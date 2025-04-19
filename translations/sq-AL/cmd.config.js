@@ -1,35 +1,4 @@
 module.exports = {
-  none: 'Asnje',
-  config: 'Konfigurimi',
-  this_channel: 'Përdor kanalin aktual',
-  updated: '{alert} • Configuration updated. Thank you for using Disping.',
-  limit:
-    'You hit the limit of users you can add using Disping. This limit is in place, so every user can enjoy the same experience using Disping. Thank you for understanding!',
-  404: 'Përdoruesi **{username}** nuk mund të gjendet! Ju lutemi sigurohuni që keni futur emrin e përdoruesit {social} (ose dorezën për YouTube) dhe jo emrin e shfaqur.',
-  invalidURL: 'URL e pavlefshme.',
-  saveError:
-    'Ndodhi një gabim gjatë ruajtjes. Ju lutemi rikonfiguroni vlerën që po përpiqeni të ndryshoni. Nëse vazhdoni ta merrni këtë gabim, ju lutemi kontaktoni [support]({support}). Na vjen keq për shqetësimin.',
-  format: {
-    spotify: 'URL e pavlefshme. URL-të e Spotify janë zakonisht si kjo: **https://open.spotify.com/artist/ID_Ketu**.',
-    reddit: 'URL e pavlefshme. URL-të e Reddit janë zakonisht si kjo: **https://www.reddit.com/r/memes**.',
-    threads: 'URL e pavlefshme. URL-të e Theads janë zakonisht si kjo: **https://threads.net/@ch1lldev**',
-  },
-  loading: {
-    title: 'Po ngarkohet...',
-    desc: 'Adding users and configuring Disping to watch them. If you get stuck on this screen, please contact [support]({support}). Thanks for using Disping!',
-  },
-  perms: {
-    invalid:
-      "{alert} • You do not have permission (MANAGE_GUILD) to manage this server's settings for Disping. Please contact the server owner to request this permission.",
-  },
-  buttons: {
-    saveexit: 'Ruaj & Dil',
-    back: 'Mbrapa',
-    support: 'Mbështetje',
-    website: 'Faqe interneti',
-    feedback: 'Vlerësim',
-    data: 'Eksporto të dhënat',
-  },
   colors: {
     red: 'E kuqe',
     orange: 'Portokalli',
