@@ -1,7 +1,7 @@
 module.exports = {
   feedback: {
-    name: "Feedback",
-    content: "Content",
-    cooldown: "You've already sent feedback recently! Please wait **{minutes} minutes** and **{seconds} seconds**."
+    name: "Umpan Balik",
+    content: "Isi",
+    cooldown: "Anda baru saja mengirim umpan balik! Mohon tunggu **{minutes} menit** dan **{seconds} detik**."
   }
 };

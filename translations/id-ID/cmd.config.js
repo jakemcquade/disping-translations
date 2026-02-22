@@ -1,106 +1,106 @@
 module.exports = {
   none: "Tidak ada",
   config: "Konfig",
-  this_channel: "Use Current Channel",
-  updated: "{alert} • Configuration updated. Thank you for using Disping.",
-  limit: "You hit the limit of users you can add using Disping. This limit is in place, so every user can enjoy the same experience using Disping. Thank you for understanding!",
-  404: "User **{username}** cannot be found! Please make sure you entered the {social} username (or handle for YouTube) and not the display name.",
-  invalidURL: "Invalid URL.",
-  saveError: "An error occurred while saving. Please reconfigure the value you were attempting to change. If you continue to get this error, please contact [support]({support}). Sorry for the inconvenience.",
+  this_channel: "Gunakan Kanal Saat Ini",
+  updated: "{alert} • Konfigurasi diperbarui. Terima kasih telah menggunakan Disping.",
+  limit: "Anda telah mencapai batas jumlah pengguna yang dapat ditambahkan menggunakan Disping. Batas ini diterapkan agar setiap pengguna dapat menikmati pengalaman yang sama saat menggunakan Disping. Terima kasih atas pengertiannya!",
+  404: "Pengguna **{username}** tidak dapat ditemukan! Pastikan Anda memasukkan nama pengguna {social} (atau handle untuk YouTube), bukan nama tampilan.",
+  invalidURL: "URL tidak valid.",
+  saveError: "Terjadi kesalahan saat menyimpan. Harap konfigurasikan ulang nilai yang ingin Anda ubah. Jika Anda terus mendapatkan kesalahan ini, silakan hubungi [dukungan]({support}). Maaf atas ketidaknyamanannya.",
   format: {
-    spotify: "Invalid URL. Spotify URLs are normally like this: **https://open.spotify.com/artist/ID_GOES_HERE**.",
-    reddit: "Invalid URL. Reddit URLs are normally like this: **https://www.reddit.com/r/memes**.",
-    threads: "Invalid URL. Thread URLs are normally like this: **https://threads.net/@ch1lldev**"
+    spotify: "URL tidak valid. URL Spotify biasanya seperti ini: **https://open.spotify.com/artist/ID_GOES_HERE**.",
+    reddit: "URL tidak valid. URL Reddit biasanya seperti ini: **https://www.reddit.com/r/memes**.",
+    threads: "URL tidak valid. URL Threads biasanya seperti ini: **https://threads.net/@ch1lldev**"
   },
   loading: {
-    title: "Loading...",
-    desc: "Adding users and configuring Disping to watch them. If you get stuck on this screen, please contact [support]({support}). Thanks for using Disping!"
+    title: "Memuat...",
+    desc: "Menambahkan pengguna dan mengonfigurasi Disping untuk memantau mereka. Jika Anda terjebak di layar ini, silakan hubungi [dukungan]({support}). Terima kasih telah menggunakan Disping!"
   },
   perms: {
-    invalid: "{alert} • You do not have permission (MANAGE_GUILD) to manage this server's settings for Disping. Please contact the server owner to request this permission."
+    invalid: "{alert} • Anda tidak memiliki izin (MANAGE_GUILD) untuk mengelola pengaturan server ini untuk Disping. Silakan hubungi pemilik server untuk meminta izin ini."
   },
   buttons: {
-    saveexit: "Save & Exit",
-    back: "Back",
-    support: "Support",
-    website: "Website",
-    feedback: "Feedback",
-    data: "Export Data"
+    saveexit: "Simpan & Keluar",
+    back: "Kembali",
+    support: "Dukungan",
+    website: "Situs Web",
+    feedback: "Umpan Balik",
+    data: "Ekspor Data"
   },
   colors: {
-    red: "Red",
-    orange: "Orange",
-    yellow: "Yellow",
-    green: "Green",
-    blue: "Blue",
-    purple: "Purple",
-    brown: "Brown",
-    black: "Black",
-    darkgrey: "Dark Grey",
-    white: "White"
+    red: "Merah",
+    orange: "Oranye",
+    yellow: "Kuning",
+    green: "Hijau",
+    blue: "Biru",
+    purple: "Ungu",
+    brown: "Cokelat",
+    black: "Hitam",
+    darkgrey: "Abu-abu Tua",
+    white: "Putih"
   },
   feedback: {
-    name: "Feedback",
-    content: "Content",
-    cooldown: "You've already sent feedback recently! Please wait **{minutes} minutes** and **{seconds} seconds**."
+    name: "Umpan Balik",
+    content: "Isi",
+    cooldown: "Anda baru saja mengirim umpan balik! Mohon tunggu **{minutes} menit** dan **{seconds} detik**."
   },
   socials: {
-    dropdown: "Select the user you would like to manage.",
+    dropdown: "Pilih pengguna yang ingin Anda kelola.",
     state: {
-      true: "Use",
-      false: "Don't Use",
-      show: "Show",
-      hide: "Hide",
-      create: "Create",
-      noCreate: "Don't Create",
-      include: "Include",
-      exclude: "Exclude"
+      true: "Gunakan",
+      false: "Jangan Gunakan",
+      show: "Tampilkan",
+      hide: "Sembunyikan",
+      create: "Buat",
+      noCreate: "Jangan Buat",
+      include: "Sertakan",
+      exclude: "Kecualikan"
     },
     users: {
-      name: "Users",
-      add: "Add User",
-      none: "No users added... click the dropdown menu below and select \"Add User\" to get started!\n\n✨ Remember to save after adding a user.",
-      notify: "Notify",
+      name: "Pengguna",
+      add: "Tambah Pengguna",
+      none: "Belum ada pengguna ditambahkan... klik menu dropdown di bawah lalu pilih \"Tambah Pengguna\" untuk memulai!\n\n✨ Jangan lupa simpan setelah menambahkan pengguna.",
+      notify: "Notifikasi",
       url: "URL",
-      failed: "Configuration Failed"
+      failed: "Konfigurasi Gagal"
     },
     channel: {
-      name: "Channel",
-      desc: "Please select a channel to use from the dropdown below.",
-      placeholder: "Select a channel to use."
+      name: "Kanal",
+      desc: "Silakan pilih kanal yang akan digunakan dari dropdown di bawah.",
+      placeholder: "Pilih kanal untuk digunakan."
     },
     role: {
-      name: "Role",
-      desc: "Please select a role to mention from the dropdown below.",
-      placeholder: "Select a role to use."
+      name: "Peran",
+      desc: "Silakan pilih peran yang akan disebutkan dari dropdown di bawah.",
+      placeholder: "Pilih peran untuk digunakan."
     },
     color: {
-      name: "Color",
-      desc: "Please select a color to show on the embed from the dropdown below.",
-      placeholder: "Select a color to apply to the embed."
+      name: "Warna",
+      desc: "Silakan pilih warna yang akan ditampilkan pada embed dari dropdown di bawah.",
+      placeholder: "Pilih warna untuk diterapkan pada embed."
     },
     message: {
-      name: "Message"
+      name: "Pesan"
     },
     advanced: {
-      embed_editor: "Post Customizer",
-      main: "> Welcome to the post customizer. Tap a button below to enable/disable a part on the embed.",
+      embed_editor: "Kustomisasi Postingan",
+      main: "> Selamat datang di kustomisasi postingan. Tekan tombol di bawah untuk mengaktifkan/menonaktifkan bagian pada embed.",
       embed: "Embed",
-      author: "Author",
+      author: "Penulis",
       thumbnail: "Thumbnail",
-      description: "Description",
-      timestamp: "Timestamp",
-      test: "Send Test Post",
-      event: "Event On Live",
+      description: "Deskripsi",
+      timestamp: "Stempel Waktu",
+      test: "Kirim Postingan Uji Coba",
+      event: "Acara Saat Siaran Langsung",
       crosspost: "Crosspost",
-      retweets: "Retweets",
+      retweets: "Retweet",
       useTFX: "TwitterFX",
       button: {
-        youtube: "Watch Button",
-        twitter: "View Button",
-        twitch: "Watch Button",
-        reddit: "View Button",
-        spotify: "Listen Button"
+        youtube: "Tombol Tonton",
+        twitter: "Tombol Lihat",
+        twitch: "Tombol Tonton",
+        reddit: "Tombol Lihat",
+        spotify: "Tombol Dengarkan"
       }
     }
   }

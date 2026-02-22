@@ -1,16 +1,16 @@
 module.exports = {
   main: {
-    name: "Daftar",
-    shortDesc: "Kembali ke daftar utama.",
-    desc: "{info} • **About**\n> Start integrating your socials to Discord. The easy way. That's Disping.\n\n**{award} • Credits**\n{allCredits}\n...And all our [\`translators\`](https://cdn.ch1ll.dev/r/translators.png)!\n\n**{robot} • Ch1llDev's Other Bots**\n{allBots}\n\n**{discord} • Join Our Community!**\n> Feel free to join our [\`Discord server\`]({support}) for support, or to talk to the community."
+    name: "Menu",
+    shortDesc: "Kembali ke menu utama.",
+    desc: "{info} • **Tentang**\n> Mulai integrasikan akun sosial Anda ke Discord. Cara yang mudah. Itulah Disping.\n\n**{award} • Kredit**\n{allCredits}\n...Dan semua [\`penerjemah\`](https://cdn.ch1ll.dev/r/translators.png) kami!\n\n**{robot} • Bot Lain Milik Ch1llDev**\n{allBots}\n\n**{discord} • Bergabunglah dengan Komunitas Kami!**\n> Silakan bergabung ke [\`server Discord\`]({support}) kami untuk mendapatkan bantuan, atau ngobrol dengan komunitas."
   },
   feedback: {
-    name: "Feedback",
-    message: "Message"
+    name: "Umpan Balik",
+    message: "Pesan"
   },
   buttons: {
-    invite: "Invite",
-    website: "Website",
-    feedback: "Feedback"
+    invite: "Undang",
+    website: "Situs Web",
+    feedback: "Umpan Balik"
   }
 };
