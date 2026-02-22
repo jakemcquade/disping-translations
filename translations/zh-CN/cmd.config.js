@@ -1,31 +1,31 @@
 module.exports = {
-  none: "None",
-  config: "Config",
-  this_channel: "Use Current Channel",
-  updated: "{alert} • 配置已更新。感谢您使用DisPing。",
-  limit: "You hit the limit of users you can add using Disping. This limit is in place, so every user can enjoy the same experience using Disping. Thank you for understanding!",
-  404: "User **{username}** cannot be found! Please make sure you entered the {social} username (or handle for YouTube) and not the display name.",
-  invalidURL: "Invalid URL.",
-  saveError: "An error occurred while saving. Please reconfigure the value you were attempting to change. If you continue to get this error, please contact [support]({support}). Sorry for the inconvenience.",
+  none: "无",
+  config: "配置",
+  this_channel: "使用当前频道",
+  updated: "{alert} • 配置已更新。感谢您使用 Disping。",
+  limit: "你已达到可通过 Disping 添加用户的上限。设置此限制是为了让每位用户都能获得一致的使用体验。感谢理解！",
+  404: "找不到用户 **{username}**！请确认你输入的是 {social} 用户名（YouTube 请输入 handle），而不是显示名称。",
+  invalidURL: "无效的 URL。",
+  saveError: "保存时发生错误。请重新配置你尝试修改的值。如果仍然出现此错误，请联系 [支持]({support})。给你带来不便，敬请谅解。",
   format: {
-    spotify: "Invalid URL. Spotify URLs are normally like this: **https://open.spotify.com/artist/ID_GOES_HERE**.",
-    reddit: "Invalid URL. Reddit URLs are normally like this: **https://www.reddit.com/r/memes**.",
-    threads: "Invalid URL. Thread URLs are normally like this: **https://threads.net/@ch1lldev**"
+    spotify: "无效的 URL。Spotify 链接通常如下：**https://open.spotify.com/artist/ID_GOES_HERE**。",
+    reddit: "无效的 URL。Reddit 链接通常如下：**https://www.reddit.com/r/memes**。",
+    threads: "无效的 URL。Threads 链接通常如下：**https://threads.net/@ch1lldev**"
   },
   loading: {
-    title: "等待一会儿。。。。。。。",
-    desc: "Adding users and configuring Disping to watch them. If you get stuck on this screen, please contact [support]({support}). Thanks for using Disping!"
+    title: "加载中...",
+    desc: "正在添加用户并配置 Disping 以监控他们。如果你长时间停留在此界面，请联系 [支持]({support})。感谢使用 Disping！"
   },
   perms: {
-    invalid: "{alert} • 你没有（MANAGE_GUILD）的资格来配置这个 Guild 的设定。请通知这个 Guild 的主人。"
+    invalid: "{alert} • 你没有权限（MANAGE_GUILD）来管理此服务器的 Disping 设置。请联系服务器所有者申请此权限。"
   },
   buttons: {
-    saveexit: "Save & Exit",
-    back: "Back",
-    support: "Support",
+    saveexit: "保存并退出",
+    back: "返回",
+    support: "支持",
     website: "网站",
-    feedback: "Feedback",
-    data: "Export Data"
+    feedback: "反馈",
+    data: "导出数据"
   },
   colors: {
     red: "红",
@@ -36,71 +36,71 @@ module.exports = {
     purple: "紫",
     brown: "棕",
     black: "黑",
-    darkgrey: "Dark Grey",
+    darkgrey: "深灰",
     white: "白"
   },
   feedback: {
-    name: "Feedback",
-    content: "Content",
-    cooldown: "You've already sent feedback recently! Please wait **{minutes} minutes** and **{seconds} seconds**."
+    name: "反馈",
+    content: "内容",
+    cooldown: "你最近已经发送过反馈了！请等待 **{minutes} 分钟** 和 **{seconds} 秒**。"
   },
   socials: {
-    dropdown: "选你想要使用的 User",
+    dropdown: "请选择你想要管理的用户。",
     state: {
-      true: "Use",
-      false: "Don't Use",
-      show: "Show",
-      hide: "Hide",
-      create: "Create",
-      noCreate: "Don't Create",
-      include: "包括",
+      true: "使用",
+      false: "不使用",
+      show: "显示",
+      hide: "隐藏",
+      create: "创建",
+      noCreate: "不创建",
+      include: "包含",
       exclude: "排除"
     },
     users: {
-      name: "Users",
-      add: "Add User",
-      none: "No users added... click the dropdown menu below and select \"Add User\" to get started!\n\n✨ Remember to save after adding a user.",
-      notify: "Notify",
+      name: "用户",
+      add: "添加用户",
+      none: "尚未添加任何用户... 点击下方下拉菜单并选择\"添加用户\"即可开始！\n\n✨ 添加用户后请记得保存。",
+      notify: "通知",
       url: "URL",
-      failed: "Configuration Failed"
+      failed: "配置失败"
     },
     channel: {
-      name: "Channel",
-      desc: "Please select a channel to use from the dropdown below.",
-      placeholder: "Select a channel to use."
+      name: "频道",
+      desc: "请从下方下拉菜单中选择要使用的频道。",
+      placeholder: "选择要使用的频道。"
     },
     role: {
-      name: "Role",
-      desc: "Please select a role to mention from the dropdown below.",
-      placeholder: "Select a role to use."
+      name: "身份组",
+      desc: "请从下方下拉菜单中选择要提及的身份组。",
+      placeholder: "选择要使用的身份组。"
     },
     color: {
       name: "颜色",
-      desc: "Please select a color to show on the embed from the dropdown below.",
-      placeholder: "请选以下的颜色。"
+      desc: "请从下方下拉菜单中选择在嵌入消息中显示的颜色。",
+      placeholder: "选择要应用到嵌入消息的颜色。"
     },
     message: {
-      name: "Message"
+      name: "消息"
     },
     advanced: {
-      embed_editor: "Post Customizer",
-      main: "> Welcome to the post customizer. Tap a button below to enable/disable a part on the embed.",
-      embed: "Embed",
+      embed_editor: "帖子自定义",
+      main: "> 欢迎使用帖子自定义功能。点击下方按钮可启用/禁用嵌入消息中的某个部分。",
+      embed: "嵌入",
       author: "作者",
-      thumbnail: "Thumbnail",
-      description: "Description",
-      timestamp: "时间",
-      test: "Send Test Post",
-      event: "Event On Live",
-      crosspost: "Crosspost",
-      retweets: "Retweets",
+      thumbnail: "缩略图",
+      description: "描述",
+      timestamp: "时间戳",
+      test: "发送测试帖子",
+      event: "直播时触发",
+      crosspost: "交叉发布",
+      retweets: "转推",
       useTFX: "TwitterFX",
       button: {
         youtube: "观看按钮",
-        twitter: "观看按钮",
+        twitter: "查看按钮",
         twitch: "观看按钮",
-        reddit: "观看按钮",
-        spotify: "Listen Button"
+        reddit: "查看按钮",
+        spotify: "收听按钮"
       }
     }
   }
