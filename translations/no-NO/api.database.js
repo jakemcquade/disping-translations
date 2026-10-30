@@ -1,5 +1,5 @@
 module.exports = {
-    missing_access: 'User missing permissions to access the server.',
+    missing_access: 'Brukeren mangler tilgang til serveren.',
     ratelimit: 'Platform is currently being ratelimited. This is an internal issue. Please report this.',
     vote_required: 'You must vote for Disping to use this feature. Please visit https://disping.xyz/vote to vote.',
     test_cooldown: "You've already sent a test message recently! Please wait {cooldown} seconds.",
